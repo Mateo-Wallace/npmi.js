@@ -1,0 +1,31 @@
+{
+  "name": "npmi.js",
+  "version": "1.0.0",
+  "description": "Command Line Application that allows a user to run `npm i` on all adjacent folders.",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mateo-Wallace/npmi.js.git"
+  },
+  "keywords": [
+    "cli",
+    "npm",
+    "npmi",
+    "npm-i",
+    "npmijs",
+    "npmi.js",
+    "npm-install"
+  ],
+  "author": "Mateo-Wallace",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mateo-Wallace/npmi.js/issues"
+  },
+  "homepage": "https://github.com/Mateo-Wallace/npmi.js#readme",
+  "bin": {
+    "npmijs": "./bin/index.js"
+  }
+}
