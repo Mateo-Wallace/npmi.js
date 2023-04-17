@@ -25,7 +25,7 @@ try {
   };
 
   // get current folder path
-  var lib = resolve(__dirname, "./");
+  var lib = resolve(process.cwd(), "./");
 
   // loop through all files within directory
   fs.readdirSync(lib).forEach(function (mod) {
