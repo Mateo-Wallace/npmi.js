@@ -1,12 +1,12 @@
 #! /usr/bin/env node
 
-try {
-  var fs = require("fs");
-  var resolve = require("path").resolve;
-  var join = require("path").join;
-  var cp = require("child_process");
-  var os = require("os");
+var fs = require("fs");
+var resolve = require("path").resolve;
+var join = require("path").join;
+var cp = require("child_process");
+var os = require("os");
 
+try {
   var npmInstallFunction = (path) => {
     // ensure path has package.json
     if (!fs.existsSync(join(path, "package.json"))) {
@@ -28,7 +28,7 @@ try {
   var lib = resolve(process.cwd(), "./");
 
   // loop through all files within directory
-  fs.readdirSync(lib).forEach(function (mod) {
+  fs.readdirSync(lib).forEach((mod) => {
     // checks all folders within parent directory for package.json
     var modPath = join(lib, mod);
     npmInstallFunction(modPath);
@@ -37,7 +37,7 @@ try {
     if (fs.statSync(modPath).isDirectory()) {
       var subLib = resolve(modPath, "./");
 
-      fs.readdirSync(subLib).forEach(function (subMod) {
+      fs.readdirSync(subLib).forEach((subMod) => {
         var subModPath = join(subLib, subMod);
 
         npmInstallFunction(subModPath);
@@ -47,5 +47,3 @@ try {
 } catch (e) {
   console.log(e);
 }
-
-console.log("Npm Install Complete");
