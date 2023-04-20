@@ -10,7 +10,7 @@
 <!-- PROJECT LOGO & HEADER -->
 <br />
 <div align="center">
-<img src="https://imgur.com/MgeqnhP" alt="rpg dice logo" width="80" height="80">
+<img src="./logo.png" alt="rpg dice logo" width="80" height="80">
 
   <h3 align="center"><strong>npmi.js</strong></h3>
 
