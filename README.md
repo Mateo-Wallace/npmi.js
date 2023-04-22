@@ -8,6 +8,7 @@
 [![LinkedIn Shield](https://img.shields.io/badge/LinkedIn-555555?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/mateo-wallace/)
 
 <!-- PROJECT LOGO & HEADER -->
+
 <br />
 <div align="center">
 <img src="./logo.png" alt="rpg dice logo" width="80" height="80">
@@ -67,6 +68,8 @@ npm install -g npmi.js
 
 Using **npmi.js** you simply move all projects into one parent folder, run the command `npmijs` from the terminal, and let your computer do its thing. Essentially cutting out the time waiting for one install to finish in order to manually start the next install.
 
+<!-- INSTALLATION -->
+
 ## Installation
 
 **npmi.js** is meant to be globally installed to your device. To globally install run this command:
@@ -77,6 +80,8 @@ npm install -g npmi.js
 
 If you would like to verify the download run `npm list -g` and you should see `npmi.js@1.x.x` pop up.
 
+<!-- USAGE -->
+
 ## Usage
 
 Once you have **npmi.js** installed globally, collect all the files you would like to run `npm install` on into a parent folder. Navigate to the parent folder in your terminal and use the command:
@@ -86,3 +91,17 @@ npmijs
 ```
 
 Running the command `npmijs` will check all folders and subfolders to see if they contain a `package.json`. If the folder does, it will run `npm i` in that location. It will then repeat this process for all files provided.
+
+Once the process is completed if you would like to verify everything has installed, check your files to see if they have `/node_modules` and a `package_lock.json`.
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See [LICENSE](https://github.com/Mateo-Wallace/npmi.js/blob/main/LICENSE) for more information.
+
+<!-- CONTACT -->
+
+## Contact
+
+Mateo Wallace - [GitHub](https://github.com/Mateo-Wallace) - [Email](mailto:mateo.t.wallace@gmail.com) - [LinkedIn](https://www.linkedin.com/in/mateo-wallace/) - [Portfolio](https://mateo-wallace.github.io/) - [npmi.js repo](https://github.com/Mateo-Wallace/npmi.js)
