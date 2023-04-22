@@ -33,3 +33,48 @@
 ```
 npm install -g npmi.js
 ```
+
+<!-- TABLE OF CONTENTS -->
+
+<details>
+  <summary style="cursor: pointer;"><strong>Table of Contents</strong></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+<div align="center">
+  <br />
+  <img src="./img/exRoll.png" alt="example dice roller in effect">
+  <br />
+  <br />
+</div>
+
+rpg-dice-js is an npm package that allows a user to send an input to a `roll()` function with no need to make random number logic. It was specifically built to comply with the dice of games such as **Dungeons and Dragons** or **Pathfinder**.
+
+Main Features:
+
+- [Settings](https://mateo-wallace.github.io/rpg-dice-js/diceclass/#settings) adjustment within a `Dice` model
+- [User input](https://mateo-wallace.github.io/rpg-dice-js/rollfunction/#valid-inputs) of all kinds accepted
+- [Dice response object](https://mateo-wallace.github.io/rpg-dice-js/rollfunction/#output) with robust information such as `input`, `result`, `total`, etc...
+
+See the [Quick Start](https://mateo-wallace.github.io/rpg-dice-js/quickstart/) guide to see how to implement rpg-dice-js into your code!
+
+### Built With
+
+[![JavaScript Shield](https://img.shields.io/badge/JavaScript-F7DF1E?&style=flat-square&logo=javascript&logoColor=272727)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![NPM Shield](https://img.shields.io/badge/NPM-333333?&style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/) [![Node.js Shield](https://img.shields.io/badge/Node.js-339933?&style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org/en/)
