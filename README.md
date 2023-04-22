@@ -42,7 +42,9 @@ npm install -g npmi.js
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#installation">Installation</a></li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#usage">Usage</a>
+      <ul><li><a href="#example-usage">Example Usage</a></li></ul>
+    </li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -93,6 +95,53 @@ npmijs
 Running the command `npmijs` will check all folders and subfolders to see if they contain a `package.json`. If the folder does, it will run `npm i` in that location. It will then repeat this process for all files provided.
 
 Once the process is completed if you would like to verify everything has installed, check your files to see if they have `/node_modules` and a `package_lock.json`.
+
+<!-- EXAMPLE -->
+
+> ### Example Usage
+>
+> ```
+> Parent-Directory/
+> ├── Project-1/
+> │   ├── index.js
+> │   └── package.json
+> ├── Project-2/
+> │   ├── client/
+> │   │   ├── client.js
+> │   │   └── package.json
+> │   ├── server/
+> │   │   ├── server.js
+> │   │   └── package.json
+> │   └── package.json
+> ├── Project-3/
+> │   ├── Solved/
+> │   │   ├── index.js
+> │   │   └── package.json
+> │   └── Unsolved/
+> │       ├── index.js
+> │       └── package.json
+> ├── Project-4/
+> │   └── subfolder/
+> │       └── subfolder2/
+> │           ├── index.js
+> │           └── package.json
+> └── Project-5/
+>     └── index.js
+> ```
+> 
+> In this example we have 5 project folders within a parent folder named `Parent-Directory`. Each project gives an example situation that might occur.
+> 
+> 1. **Project-1** contains a `package.json` on the root level
+>     - **Output**: npmi.js will run `npm i`
+> 1. **Project-2** contains a `package.json` on the root level, and another `package.json` within > the `client/` and `server/` folders respectively
+>     - **Output**: npmi.js will run `npm i` on all 3 folders
+> 1. **Project-3** does not contain a `package.json` on the root level, but does within the `/Solved` and `/Unsolved` folders
+>     - **Output**: npmi.js will run `npm i` on the `/Solved` and `/Unsolved` folders
+> 1. **Project-4** does not contain a `package.json` on the root level, no package on the `/subFolder` level, and a package on the `/subfolder2` level
+>     - **Output**: npmi.js will do nothing. npmi.js only looks for a `package.json` 1 folder deep into each project.
+> 1. **Project-5** does not contain a `package.json` at all
+>     - **Output**: npmi.js will do nothing
+
 
 <!-- LICENSE -->
 
