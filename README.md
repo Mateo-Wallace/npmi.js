@@ -42,10 +42,8 @@ npm install -g npmi.js
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -79,4 +77,12 @@ npm install -g npmi.js
 
 If you would like to verify the download run `npm list -g` and you should see `npmi.js@1.x.x` pop up.
 
+## Usage
 
+Once you have **npmi.js** installed globally, collect all the files you would like to run `npm install` on into a parent folder. Navigate to the parent folder in your terminal and use the command:
+
+```
+npmijs
+```
+
+Running the command `npmijs` will check all folders and subfolders to see if they contain a `package.json`. If the folder does, it will run `npm i` in that location. It will then repeat this process for all files provided.
