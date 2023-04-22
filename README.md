@@ -11,7 +11,7 @@
 
 <br />
 <div align="center">
-<img src="./logo.png" alt="rpg dice logo" width="80" height="80">
+<img src="https://imgur.com/ne7FzQE.png" alt="rpg dice logo" width="80" height="80">
 
   <h3 align="center"><strong>npmi.js</strong></h3>
 
