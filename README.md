@@ -11,7 +11,7 @@
 
 <br />
 <div align="center">
-<img src="https://imgur.com/ne7FzQE.png" alt="rpg dice logo" width="80" height="80">
+<img src="https://imgur.com/ne7FzQE.png" alt="npmi js logo" width="80" height="80">
 
   <h3 align="center"><strong>npmi.js</strong></h3>
 
@@ -56,7 +56,7 @@ npm install -g npmi.js
 
 <div align="center">
   <br />
-  <img src="https://i.imgur.com/H2p0Lvw.gif" alt="example dice roller in effect">
+  <img src="https://i.imgur.com/H2p0Lvw.gif" alt="npmi js working in terminal">
   <br />
   <br />
 </div>
