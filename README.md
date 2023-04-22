@@ -18,7 +18,7 @@
   <p align="center">
     <strong>A multi-folder npm installer</strong>
     <br />
-    Globally install npmi.js and run npmijs to install all folders that have a package.json in the cwd
+    Globally install npmi.js and run <code>npmijs</code> to install all folders that have a package.json in the cwd
     <br />
     <br />
     <a href="https://github.com/Mateo-Wallace/npmi.js">View GitHub</a>
