@@ -56,7 +56,7 @@ npm install -g npmi.js
 
 <div align="center">
   <br />
-  <img src="./img/exRoll.png" alt="example dice roller in effect">
+  <img src="https://i.imgur.com/H2p0Lvw.gif" alt="example dice roller in effect">
   <br />
   <br />
 </div>
