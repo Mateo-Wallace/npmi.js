@@ -39,12 +39,7 @@ npm install -g npmi.js
 <details>
   <summary style="cursor: pointer;"><strong>Table of Contents</strong></summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
+    <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -65,16 +60,11 @@ npm install -g npmi.js
   <br />
 </div>
 
-rpg-dice-js is an npm package that allows a user to send an input to a `roll()` function with no need to make random number logic. It was specifically built to comply with the dice of games such as **Dungeons and Dragons** or **Pathfinder**.
+**npmi.js** is an npm package that allows a user to run the command `npm install` on multiple folders at the same time. The main advantage of this is that if you have multiple projects that take very long to run `npm i` on, you don't have to sit and wait for:
 
-Main Features:
+1. Wait for a single project to install
+1. Change to the next project
+1. Run the install on the next project
+1. Repeat for all projects
 
-- [Settings](https://mateo-wallace.github.io/rpg-dice-js/diceclass/#settings) adjustment within a `Dice` model
-- [User input](https://mateo-wallace.github.io/rpg-dice-js/rollfunction/#valid-inputs) of all kinds accepted
-- [Dice response object](https://mateo-wallace.github.io/rpg-dice-js/rollfunction/#output) with robust information such as `input`, `result`, `total`, etc...
-
-See the [Quick Start](https://mateo-wallace.github.io/rpg-dice-js/quickstart/) guide to see how to implement rpg-dice-js into your code!
-
-### Built With
-
-[![JavaScript Shield](https://img.shields.io/badge/JavaScript-F7DF1E?&style=flat-square&logo=javascript&logoColor=272727)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![NPM Shield](https://img.shields.io/badge/NPM-333333?&style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/) [![Node.js Shield](https://img.shields.io/badge/Node.js-339933?&style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org/en/)
+Using **npmi.js** you simply move all projects into one parent folder, run the command `npmijs` from the terminal, and let your computer do its thing. Essentially cutting out the time waiting for one install to finish in order to manually start the next install.
