@@ -68,3 +68,15 @@ npm install -g npmi.js
 1. Repeat for all projects
 
 Using **npmi.js** you simply move all projects into one parent folder, run the command `npmijs` from the terminal, and let your computer do its thing. Essentially cutting out the time waiting for one install to finish in order to manually start the next install.
+
+## Installation
+
+**npmi.js** is meant to be globally installed to your device. To globally install run this command:
+
+```
+npm install -g npmi.js
+```
+
+If you would like to verify the download run `npm list -g` and you should see `npmi.js@1.x.x` pop up.
+
+
