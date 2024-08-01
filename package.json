@@ -1,6 +1,6 @@
 {
   "name": "npmi.js",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Command Line Application that allows a user to run `npm i` on all adjacent folders.",
   "main": "bin/index.js",
   "scripts": {
