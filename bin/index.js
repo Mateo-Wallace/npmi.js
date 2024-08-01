@@ -19,10 +19,17 @@ const npmInstallFunction = (path) => {
     env: process.env,
     cwd: path,
     stdio: "inherit",
+    shell: true, // Added shell option
   });
 
   install.on("error", (err) => {
     console.error(`Failed to run npm install in ${path}:`, err);
+  });
+
+  install.on("exit", (code) => {
+    if (code !== 0) {
+      console.error(`npm install in ${path} failed with exit code ${code}`);
+    }
   });
 };
 
